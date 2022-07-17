@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: monospace Helvetica;
+}
+
+html {
+  font-size: 14px;
+  font-family: monospace;
+}
+
+body {
+  background-color: rgb(223, 218, 211);
+}
+
+abbr {
+  text-decoration: none;
+}
+
+.container {
+  width: 300px;
+  padding: 50px;
+  margin: 0 auto;
+
+  ul {
+    display: inline-block;
+    list-style-image: url(../img/rocket.svg);
+
+    li {
+      a {
+        font-size: 2rem;
+        color: rgb(177, 50, 220);
+        font-style: normal;
+        text-decoration: none;
+        height: 3rem;
+        line-height: 3rem;
+        text-indent: 2em;
+      }
+
+      a:hover {
+        color: rgb(25, 125, 219);
+        text-decoration: underline;
+      }
+    }
+  }
+}
